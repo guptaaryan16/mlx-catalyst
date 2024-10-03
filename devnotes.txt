@@ -1,0 +1,13 @@
+## DevNotes for MLX_Catalyst 
+
+Why did I choose to develop this library?
+MLX is amazing for running custom experiments your own laptop and thus brings a new feeling in the ecosystem, as while most ML libraries focus on running things on the cloud/expensive GPUs, MLX is the first of some libraries that really wants to make the local training of models easier. As I have conducted enough experiments with MLX to see the value it brings, MLX does bring a lot of boilerplate that can be removed if we used some nice abstractions for training like pytorch-lightning, flax.nnx and optax. Thus comes MLX_Catalyst with the goal to study and improve the training of models in MLX over M series Apple devices.
+
+Main features planned for the library:
+1. Dataloader (similar to pytorch)
+2. Trainers (Supervised), and Engine that supports functional style of MLX and JAX
+3. Loss functions and Metrics for training and evaluating models 
+4. Optimizer abstractions for Experiments (may refer to Optax for more understanding)
+
+I am a final year student in Electrical Engineering so I will try to work really hard to complete and then maintain this project but may require a lot of help from outside contributors to make this project successful.
+

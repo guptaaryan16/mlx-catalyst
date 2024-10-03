@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "mlx-catalyst"
+version = "0.0.1"
+description = "Catalyse your experiments with MLX on your own laptops"
+authors = ["Aryan Gupta <guptaaryan16@gmail.com>"]
+license = "Apache License 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.4"
+mlx = "^0.18.0"
+numpy = "^2.1.1"
+mlx-data = "^0.0.2"
+
+[tool.poetry.group.dev.dependencies]
+wandb = "^0.18.2"
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
